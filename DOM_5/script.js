@@ -24,10 +24,7 @@ document.addEventListener("click", function (e) {
 });
 
 //add symbols counter
-txtItem.addEventListener("keyup", txtSetCounter);
-txtItem.addEventListener("keydown", function (val) {
-  if (event.repeat) txtSetCounter();
-});
+txtItem.addEventListener("input", txtSetCounter);
 
 function txtSetCounter() {
   const txtCounterResult = txtItemLimit - txtItem.value.length;
