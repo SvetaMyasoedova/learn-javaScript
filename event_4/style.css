@@ -1,0 +1,9 @@
+.red {
+	border-width:1;
+   border-color: rgb(192, 86, 86);
+   border-style: solid;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding: 20px;
+}
